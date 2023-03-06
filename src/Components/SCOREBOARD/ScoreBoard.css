@@ -1,0 +1,19 @@
+.ScoreBoard{
+    width: 320px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 5px;
+}
+
+.ScoreBoard div{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #4392F1;
+}
+
+.ScoreBoard div:first-child{
+    background-color: #CD493A;
+}
